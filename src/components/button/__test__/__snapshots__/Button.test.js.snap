@@ -19,3 +19,13 @@ exports[`match snapshot 2 1`] = `
   Click me Please
 </div>
 `;
+
+exports[`match snapshot 3 1`] = `
+<div
+  className="button-style"
+  data-testid="button"
+>
+  Hi 
+  helloo
+</div>
+`;
