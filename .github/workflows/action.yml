@@ -19,6 +19,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm i
-      - run: npm test
-      - run: npm start
+      - name: Test
+        id: test
+        run: npm test
+      # - run: npm start
+      - name: Check on failures
+        if: steps.test.outputs.status == 'failure'
+        run: exit 1
           
