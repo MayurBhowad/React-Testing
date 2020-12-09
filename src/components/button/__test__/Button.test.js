@@ -22,7 +22,7 @@ it("render button correctly", () => {
 
 it("render button correctly", () => {
     const { getByTestId } = render(<Button lable="Save"></Button>)
-    expect(getByTestId('button')).toHaveTextContent("Save")
+    expect(getByTestId('button')).toHaveTextContent("Savee")
 })
 
 it('match snapshot 1', () => {
