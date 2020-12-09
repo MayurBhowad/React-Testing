@@ -3,6 +3,7 @@ import './App.css';
 import Button from './components/button/Button';
 
 function App() {
+  console.log('Running...');
   return (
     <div className="App">
       <header className="App-header">
