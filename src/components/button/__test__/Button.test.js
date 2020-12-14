@@ -22,7 +22,7 @@ it("render button correctly", () => {
 
 it("render button correctly", () => {
     const { getByTestId } = render(<Button lable="Save"></Button>)
-    expect(getByTestId('button')).toHaveTextContent("Savee")
+    expect(getByTestId('button')).toHaveTextContent("Save")
 })
 
 it('match snapshot 1', () => {
@@ -39,3 +39,4 @@ it('match snapshot 3', () => {
     const tree = renderer.create(<Button lable="helloo"></Button>).toJSON();
     expect(tree).toMatchSnapshot();
 })
+
