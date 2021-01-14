@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class ButtonClass extends React.Component {
+export class ButtonClass extends Component {
 
     constructor(props) {
         super(props);

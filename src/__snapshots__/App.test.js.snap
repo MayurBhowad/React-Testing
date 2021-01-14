@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take snapSHot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <div
+        class="button-style"
+        data-testid="button"
+      >
+        Hi Click me please
+      </div>
+    </header>
+    <a
+      href=""
+    >
+      Learn React
+    </a>
+    <button
+      class="btn btn-success"
+    >
+      fetch
+    </button>
+  </div>
+</DocumentFragment>
+`;
