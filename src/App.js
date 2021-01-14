@@ -4,7 +4,6 @@ import Button from './components/button/Button';
 import { useState } from 'react';
 
 function App() {
-  console.log('Running...');
   const [buttonClicked, setButtonClicked] = useState(false);
   const fetching = async () => {
     setButtonClicked(true);

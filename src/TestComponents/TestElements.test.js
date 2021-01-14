@@ -10,8 +10,8 @@ it('should equal to 0', () => {
 })
 
 it('up button should be enabled', () => {
-    const { getByTestId } = render(<TestElements />)
-    expect(getByTestId('button-up')).not.toHaveAttribute('disabled');
+    const { getByTestId, getByText } = render(<TestElements />)
+    expect(getByText('Up')).not.toHaveAttribute('disabled');
 })
 
 it('down button should be disabled', () => {
