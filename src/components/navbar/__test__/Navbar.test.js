@@ -7,6 +7,10 @@ describe('Navbar testing', () => {
         wrapper = shallow(<Navbar />);
     })
 
+    test('Navbar should match snapshot', () => {
+        expect(wrapper).toMatchSnapshot();
+    })
+
     test('Confirm logo', () => {
         expect(wrapper.find('.logo').text()).toEqual('LOGO')
     })
