@@ -21,4 +21,13 @@ describe('Navbar testing', () => {
             expect(item.text()).toEqual(items[i]);
         })
     })
+
+    test('confirm hover on Navlist in navbar', () => {
+        wrapper.find('.list-item').forEach(item => {
+            item.simulate('mouseover');
+            // expect(item.props('style')).toHaveProperty('color', '#61dafb')
+            expect(item.get(0).getDOMNode().getComputedStyle()).to.have.property({ color: '#61dafb' })
+
+        })
+    })
 })
