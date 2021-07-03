@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
         <Button lable="Click me please"></Button>
       </header>
-      <a href="">Learn React</a>
+      <a href="">React Testing</a>
       <button className="btn btn-success" onClick={fetching} disabled={buttonClicked}>{buttonText}</button>
     </div>
   );
