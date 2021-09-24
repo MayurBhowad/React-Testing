@@ -3,7 +3,7 @@ import './button.css';
 
 function Button({ lable }) {
 
-    return <div data-testid="button" className="button-style" >Hello {lable}</div>
+    return <div data-testid="button" className="button-style" >Helloo {lable}</div>
 }
 
 export default Button
